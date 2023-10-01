@@ -1,0 +1,97 @@
+*, :after, :before {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Segoe UI", Sans-serif;
+    font-size: 18px;
+    line-height: 1.6;
+    color: #321b03;
+    padding: 0;
+    margin: 0;
+}
+
+h1 {
+    font-family: "Patric Hand", cursive;
+    font-size: 40px;
+    text-align: center;
+    padding: 50px;
+    margin: 0 auto;
+}
+
+.menu {
+    background-color: #5c4b51;
+    text-align: center;
+    font-size: 28px;
+    padding: 0;
+    margin: 0;
+}
+
+.menu li {
+    display: inline-block;
+    padding: 15px 30px;
+}
+
+.menu a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+h2 {
+    font-family: "Patric Hand", cursive;
+    font-size: 30px;
+}
+
+.o {
+    background-color: #71dab7;
+    display: block;
+    padding: 50px 500px;
+}
+
+.krystufek {
+    float: right;
+    width: 30%;
+    margin: 0 30px 30px 30px;
+    border: 3px solid white;
+    border-radius: 50%;
+    box-shadow: 0 5px 30px rgba(0, 0, 0, 0.2);
+}
+
+.fotogalerie {
+    background-color: #f2e1af;
+    display: block;
+    padding: 50px 500px;
+}
+
+.kamaradi {
+    display: inline-block;
+    width: 30%;
+    margin: 0 15px 15px 0;
+    border: 3px solid white;
+    border-radius: 10%;
+    box-shadow: 0 5px 30px rgba(0, 0, 0, 0.2);
+}
+
+.kontakt {
+    background-color: #eabc8c;
+    display: block;
+    padding: 50px 500px;
+    height: 500px;
+}
+
+.mapa {
+    float: left;
+    width: 50%;
+    margin: 0 30px 0 0;
+    border: 3px solid white;
+    border-radius: 10%;
+    box-shadow: 0 5px 30px rgba(0, 0, 0, 0.2);
+}
+
+footer {
+    background-color: #e06666;
+    color: #ffffff;
+    text-align: center;
+    margin: 0 auto;
+    padding: 30px;
+}
